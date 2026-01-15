@@ -1,0 +1,162 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.header {
+    background-image: url('../images/developer.png'), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom, right;
+
+}
+
+/* banner stayle */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.banner-heading {}
+
+.banner-gretting {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-heading {
+    font-weight: 800;
+    font-size: 85px;
+}
+
+.banner-describe {
+    font-size: 18px;
+}
+
+.banner-image {
+    height: 676px;
+    width: 584px;
+}
+
+.banner-content {
+    max-width: 580px;
+}
+
+/* main */
+.section-title {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.section-describe {
+    font-size: 18px;
+    color: #757575;
+}
+
+main {
+    max-width: 1140px;
+    /* margin: 0 auto; */
+    /* margin-top: 50px; */
+    margin: 130px auto;
+}
+
+.about {
+    /* margin: 0 auto; */
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 130px 150px;
+    /* width: 1200px; */
+    /* margin-top:130px  150px; */
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    gap: 50px;
+}
+
+.experience {
+    margin: 0 auto;
+}
+
+.do {
+    text-align: center;
+}
+
+.experience-title {
+    /* margin-top: 10px; */
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.experience-describe {
+    font-size: 18px;
+}
+.experience-language{
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+    margin-top: 50px;
+}
+.skill{
+    padding: 40px;
+    box-shadow: 0px 2px 30px 0px #000000;
+    border-radius:15px ;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
